@@ -1,4 +1,4 @@
-import {styled, Text} from "tamagui";
+import {styled, Text, Button} from "tamagui";
 
 
 
@@ -36,8 +36,16 @@ export const Typography = styled(Text, {
             },
             caption: {
                 fontSize: '$xs',
-                fontWeight: '$regular'
-            }
+                fontWeight: '$regular',
+                margin: 0,
+            },
+            tag: {
+                fontSize: '$xxs',
+                fontWeight: '$regular',
+                margin: 0,
+            },
+
         }
     } as const
 })
+

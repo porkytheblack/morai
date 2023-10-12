@@ -6,6 +6,9 @@ import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 import {TamaguiProvider} from "tamagui";
 import appConfig from "../tamagui.config";
+import { Provider } from 'react-redux';
+import store from '../store';
+import { ConversationSheet, ManageTagsSheet, SettingsSheet } from '../sheets';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -14,7 +17,7 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: '(tabs)',
+  initialRouteName: 'index',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -66,7 +69,18 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <TamaguiProvider config={appConfig} defaultTheme={colorScheme == 'dark' ? 'dark': 'light'} >
-          <Stack/>
+        <Provider
+          store={store}
+        >
+          <Stack
+            screenOptions={{
+              headerShown: false,
+            }}
+          />
+          
+          <ConversationSheet/>
+          <SettingsSheet/>
+        </Provider>
       </TamaguiProvider>
     </ThemeProvider>
   );
