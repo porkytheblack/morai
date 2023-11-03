@@ -1,8 +1,10 @@
 import { combineReducers } from "@reduxjs/toolkit";
 import sheetController from "./sheetController";
+import notionReducer from "./notion"
 
 const reducers = combineReducers({
-    sheetController
+    sheetController,
+    notionReducer
 })
 
 export type RootState = ReturnType<typeof reducers>

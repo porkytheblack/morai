@@ -55,10 +55,11 @@ export const Button = styled(_Button, {
 
 export const IconButton = styled(Button, {
    name: "IconButton",
-   borderRadius: 20,
+   borderRadius: 200,
    backgroundColor: '$primary200',
    alignItems:'center',
    justifyContent: 'center',
+   height: "auto",
    padding: 8,
    pressStyle:{
     backgroundColor: '$primary300'

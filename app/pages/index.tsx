@@ -2,21 +2,23 @@ import { StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
 import { Stack } from 'expo-router'
 import { ScrollView, XStack, YStack } from 'tamagui'
-import { IconButton, Input, PaddedScreenShell } from '../components'
+import { IconButton, Input, PaddedScreenShell } from '../../components'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { Inbox, Search as SearchIcon } from '@tamagui/lucide-icons'
-import { PageButton } from '../triggers'
-import Notion from '../libs/notion'
-import { useAppDispatch, useAppSelector } from '../store'
-import { searchPages, selectPagesSearchFeedback } from '../store/slices/notion'
+import { PageButton } from '../../triggers'
+import Notion from '../../libs/notion'
+import { useAppDispatch, useAppSelector } from '../../store'
+import { searchPages, selectPagesSearchFeedback } from '../../store/slices/notion'
 
 const Search = () => {
     const dispatch = useAppDispatch()
     const feedback = useAppSelector(selectPagesSearchFeedback)
+    
 
     const [search, setSearch] = useState("")
 
     const handleSearch = async () =>{
+        
         // TODO: handleSearch
         dispatch(searchPages(search))
     }
@@ -61,7 +63,7 @@ const Search = () => {
                         <Text>
                             Search for any page in your notion workspace, that the app has access to.
                         </Text>
-                        
+
                         <XStack
                             w="100%"
                             alignItems="center"
