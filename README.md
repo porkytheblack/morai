@@ -6,13 +6,10 @@
 ## Current Features
 - Custom dark and light mode theme
 
-![Screenshot_20231110_012909_morai](https://github.com/porkytheblack/morai/assets/58218526/06baaa7e-b4e0-4cc6-8d9a-634938b0c0b9)
-![Screenshot Nov 10 from Gmail (4)](https://github.com/porkytheblack/morai/assets/58218526/af0bc4e3-5f59-44c4-8ddc-01560090049c)
-
-![Screenshot Nov 10 from Gmail (1)](https://github.com/porkytheblack/morai/assets/58218526/98fdae3d-2f8c-4e34-b542-2ba5ecf44cd1)
-![Screenshot Nov 10 from Gmail](https://github.com/porkytheblack/morai/assets/58218526/7ec361b8-3aa5-49cb-8c5d-7b0d2691fa5a)
-
-![Screenshot_20231110_013047_morai](https://github.com/porkytheblack/morai/assets/58218526/c2aa7551-9ee6-48e0-a790-25b68ec2e7ae)
-![Screenshot Nov 10 from Gmail (2)](https://github.com/porkytheblack/morai/assets/58218526/9323f2ab-a8db-48fd-b1e2-cbec23ed6608)
-
-![Screenshot Nov 10 from Gmail (6)](https://github.com/porkytheblack/morai/assets/58218526/1bbf5889-eb00-4cc4-821d-8ba59b807cc5)
+![Screenshot Nov 10 from Gmail (4)](https://github.com/porkytheblack/morai/assets/58218526/b0bdbecb-37ed-4987-a993-decb89c30d57)
+![Screenshot_20231110_012909_morai](https://github.com/porkytheblack/morai/assets/58218526/d9c65d9d-3977-41f7-996d-627063f35510)
+![Screenshot Nov 10 from Gmail](https://github.com/porkytheblack/morai/assets/58218526/01c6a23b-6ffb-46ab-bacc-1c06aa5d5817)
+![Screenshot Nov 10 from Gmail (1)](https://github.com/porkytheblack/morai/assets/58218526/9bad700b-5103-47c0-86ae-6d2e0ebd1956)
+![Screenshot_20231110_013047_morai](https://github.com/porkytheblack/morai/assets/58218526/7ef967a1-e9d3-4769-8f2a-e39e421bd938)
+![Screenshot Nov 10 from Gmail (2)](https://github.com/porkytheblack/morai/assets/58218526/75caff39-d9ae-4b77-b8a9-e1072bacc11e)
+![Screenshot Nov 10 from Gmail (5)](https://github.com/porkytheblack/morai/assets/58218526/c9f1d5d6-44d6-4bd3-bdce-545ec8df5609)
