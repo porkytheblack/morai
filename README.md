@@ -1,5 +1,4 @@
 # morai
-- [This is a Work in Progress]
 - Plan your life on notion, and let your ai assistant drive you through the it.
 - Built with Expo and tamagui ui
 
